@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 135px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 120px;
+  background-color: #2D2D2D;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  height: 100%;
+}
+
+.backButton {
+  width: 158px;
+  height: 50px;
+  border-radius: 54px;
+  background-color: transparent;
+  border: 2px solid #DAA46B;
+  color: #DAA46B;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 76px;
+  height: 76px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.settingsLogo {
+  width: 76px;
+  height: 76px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.tabsContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+}
+
+.tab {
+  padding: 0 25px;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgba(255, 255, 255, 0.5);
+  transition-duration: 0.2s;
+}
+.tab:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.tabHighlight {
+  color: rgba(255, 255, 255, 1);
+}
+.tabHighlight::after {
+  content: "";
+  background-color: transparent;
+  height: 9px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition-duration: 0.2s;
+  background-color: #DAA46B;
+}

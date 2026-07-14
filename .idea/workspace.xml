@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a5a7606-ecce-44f3-b45b-67be8ea03dc7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="JSON File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.npmrc" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/config/config.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/electron-builder.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/electron.vite.config.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/ShibAuthentication.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/ShibFileManager.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/ShibIPCEvents.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/ShibNetworking.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/ShibPixelStreaming.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/index.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/preload/ShibAPI.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/preload/index.d.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/preload/index.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/DownloadInterface/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/DownloadInterface/styles.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/DownloadSection/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/DownloadSection/styles.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/GameListCard/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/GameListCard/styles.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/GameProfileSection/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/GameProfileSection/styles.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/Header/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/Header/styles.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/HeaderProfile/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/MediaViewer/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/MediaViewer/styles.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/Wrapper/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/Wrapper/styles.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/subLogginginNew/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/subLoginPopUpConnect/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/components/subLoginPopUpWallet/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/hooks/prepareWindowFunctions.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/main.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/pages/BootScreen/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/pages/BootScreen/styles.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/pages/Home/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/pages/Home/styles.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/pages/Library/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/pages/Login/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/pages/Login/styles.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/pages/LoginForm/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/pages/PopupUpdate/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/pages/ViewGame/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/pages/ViewGame/styles.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/renderer/src/styles/base.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tsconfig.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tsconfig.node.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tsconfig.web.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="useP4CONFIG" value="false" />
+    <option name="port" value="ssl:54.146.86.85:1666" />
+    <option name="client" value="NadimS_DesktopLauncher" />
+    <option name="user" value="NadimS" />
+  </component>
+  <component name="PerforceNumberNameSynchronizer">
+    <option name="listMappings">
+      <map>
+        <entry>
+          <key>
+            <ConnectionKeyBean>
+              <option name="server" value="ssl:54.146.86.85:1666" />
+              <option name="client" value="NadimS_DesktopLauncher" />
+              <option name="user" value="NadimS" />
+            </ConnectionKeyBean>
+          </key>
+          <value>
+            <PerforceNumberNameMap />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2lgeNbUvYpFjXZtiZAsrfWwUJdJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\User\\Documents\\Work\\ShibMV_DesktopLauncher\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\User\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a5a7606-ecce-44f3-b45b-67be8ea03dc7" name="Changes" comment="" />
+      <created>1725606108490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725606108490</updated>
+      <workItem from="1725606110982" duration="30221000" />
+      <workItem from="1725893288196" duration="39000" />
+      <workItem from="1725894165075" duration="1546000" />
+      <workItem from="1725896373251" duration="611000" />
+      <workItem from="1726058856896" duration="1558000" />
+      <workItem from="1726480398013" duration="57000" />
+      <workItem from="1726556500723" duration="684000" />
+      <workItem from="1726557209613" duration="2117000" />
+      <workItem from="1726746633007" duration="6470000" />
+      <workItem from="1726759015618" duration="4928000" />
+      <workItem from="1726821798740" duration="487000" />
+      <workItem from="1726823595410" duration="5767000" />
+      <workItem from="1726831470877" duration="7763000" />
+      <workItem from="1726840030447" duration="58000" />
+      <workItem from="1726845619655" duration="178000" />
+      <workItem from="1727178818399" duration="10427000" />
+      <workItem from="1727246411760" duration="21022000" />
+      <workItem from="1727331446941" duration="21155000" />
+      <workItem from="1727364578986" duration="2678000" />
+      <workItem from="1727419297556" duration="30738000" />
+      <workItem from="1727949106843" duration="5870000" />
+      <workItem from="1728023244931" duration="20893000" />
+      <workItem from="1728544263196" duration="17120000" />
+      <workItem from="1728654996484" duration="1095000" />
+      <workItem from="1728894748603" duration="9661000" />
+      <workItem from="1728904454306" duration="194000" />
+      <workItem from="1729584514594" duration="680000" />
+      <workItem from="1729771015853" duration="636000" />
+      <workItem from="1730116395860" duration="347000" />
+      <workItem from="1730219525376" duration="664000" />
+      <workItem from="1733473214588" duration="5241000" />
+      <workItem from="1733485513209" duration="2721000" />
+      <workItem from="1733753554573" duration="270000" />
+      <workItem from="1734952812172" duration="5463000" />
+      <workItem from="1734960451918" duration="1404000" />
+      <workItem from="1734963660719" duration="17332000" />
+      <workItem from="1735025055712" duration="9457000" />
+      <workItem from="1735038422327" duration="426000" />
+      <workItem from="1735051120028" duration="813000" />
+      <workItem from="1736153590258" duration="5027000" />
+      <workItem from="1736177620814" duration="268000" />
+      <workItem from="1736257792780" duration="3664000" />
+      <workItem from="1736322832225" duration="9742000" />
+      <workItem from="1736410957102" duration="9186000" />
+      <workItem from="1736428982898" duration="4846000" />
+      <workItem from="1736959534457" duration="1583000" />
+      <workItem from="1737025570325" duration="11286000" />
+      <workItem from="1737099924593" duration="3132000" />
+      <workItem from="1737116688318" duration="5101000" />
+      <workItem from="1737382844280" duration="4746000" />
+      <workItem from="1737469807721" duration="6688000" />
+      <workItem from="1737734036329" duration="133000" />
+      <workItem from="1737990529993" duration="595000" />
+      <workItem from="1737994374091" duration="133000" />
+      <workItem from="1738657124881" duration="14094000" />
+      <workItem from="1738744683038" duration="3386000" />
+      <workItem from="1738938379137" duration="1020000" />
+      <workItem from="1738946935051" duration="435000" />
+      <workItem from="1738950054727" duration="1057000" />
+      <workItem from="1739440604860" duration="3126000" />
+      <workItem from="1739544926570" duration="17000" />
+      <workItem from="1739544981756" duration="1531000" />
+      <workItem from="1739810793159" duration="328000" />
+      <workItem from="1746774353577" duration="1630000" />
+      <workItem from="1747733347916" duration="20000" />
+      <workItem from="1748348333768" duration="1271000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/preload/index.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

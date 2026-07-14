@@ -1,0 +1,147 @@
+.container {
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 120px;
+  gap: 60px;
+}
+
+.bodyColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.versionsContainer {
+  padding: 20px 60px;
+  border-radius: 21px;
+  background: #2D2D2D;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.title {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subTitle {
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.versionHistory {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.requirementsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.requirementsTitle {
+  color: #DEDECE;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 20px 0;
+}
+
+.requirementsBody {
+  color: #DEDECE;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 5px 0;
+}
+
+.requirementsBodyHighlight {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.eventsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.statsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.statsRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.statsIcon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+}
+
+.statsTitle {
+  color: #DEDECE;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.statsValue {
+  color: #DAA46B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.statsAchievmentsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statsAchievementIcon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 90px;
+  height: 90px;
+}
+
+.AboutContainer
+{
+  text-wrap: wrap;
+}

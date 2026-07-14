@@ -1,0 +1,7 @@
+.container {
+}
+
+.body {
+  height: calc(100vh - 135px); /* header height */
+  overflow: scroll;
+}

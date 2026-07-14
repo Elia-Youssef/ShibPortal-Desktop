@@ -1,0 +1,165 @@
+.subcontainer {
+
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 410px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+.label {
+  color: #DEDECE;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+}
+.label2 {
+  color: #DEDECE;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+.label3 {
+  color: #DEDECE;
+  font-size: 15px;
+  margin-bottom: 10px;
+  display: block;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+
+
+}
+
+.usernameinput {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+  display: flex;
+  height: 42px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.80);
+  box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.13) inset;
+
+}
+
+.continuebutton {
+
+  color: white;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Sora";
+  width: 70%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  border-radius: 54px;
+  background: #A14338;
+  box-shadow: 0px 0px 6.2px 0px #A81200 inset;
+}
+
+.emailbutton:hover {
+  background-color: #b54135;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.line {
+  fill: #FFF;
+  stroke-width: 1px;
+  stroke: rgba(246, 159, 63, 0.00);
+}
+.rotatedImage {
+  transform: rotate(180deg);
+}
+.ortext {
+  margin: 0 10px;
+  color: #d4d4d4;
+}
+
+.walletbutton {
+  background-color: #ffffff;
+  border: 2px solid #A14338;
+  color: #A14338;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Sora";
+  width: 70%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.walletbutton:hover {
+  background-color: #f0f0f0;
+  color: #b54135;
+}
+
+.helpsection {
+  margin-top: 20px;
+}
+
+.helplink {
+  color: #DAA46B;
+  text-align: center;
+  text-decoration: none;
+  font-family: Sora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-decoration-line: underline;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.termslink,
+.privacylink {
+  color: #d4d4d4;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.divider {
+  color: #F69F40;
+  font-size: 12px;
+}
+.notvalidlabel {
+  color: #E11800;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+.validlabel {
+  color: #00F629;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}

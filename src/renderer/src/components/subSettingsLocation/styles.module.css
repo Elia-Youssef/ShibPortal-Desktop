@@ -1,0 +1,149 @@
+.settingscontainer {
+  background-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+}
+.settingscontent {
+  padding: 20px;
+  width: 750px;
+  text-align: center;
+}
+.settingscontent label{
+  color: #DAA46B;
+  font-family: Sora;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+}
+.settingdisplay {
+  margin: 30px 160px;
+  position: relative;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  gap:30px;
+}
+.locationdisplay {
+  display: flex;
+  align-items: center;
+  /*margin-left: 180px;*/
+  /*max-width: 700px;*/
+  width: 100%;
+  justify-content: center;
+}
+.settingdisplay input {
+  flex: 2;
+  padding: 5px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 7px;
+  border: 0.5px solid #DEDECE;
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+
+}
+
+.buttonscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 70px;
+  align-items: center;
+
+}
+.browsebutton {
+  background: #A14338;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 6.2px 0px #A81200 inset;
+  font-family: Sora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  transition: background-color 0.3s;
+  border-radius :54px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  display: flex;
+  width: 96px;
+  height: 27px;
+  padding: 0px 28px;
+  gap: 23px;
+  flex-shrink: 0;
+}
+.savebutton,
+.resetbutton,
+.backbutton {
+  display : inline-block;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  display: flex;
+  width: 266px;
+  height: 48px;
+  border-radius :54px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.savebutton {
+  background: #A14338;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 6.2px 0px #A81200 inset;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.resetbutton {
+  border-radius: 54px;
+  border: 2px solid #A14338;
+  background: #FFF;
+  box-shadow: 0px 0px 6.2px 0px #BE6600 inset;
+  color: #A14338;
+  text-align: center;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.backbutton {
+  border-radius: 54px;
+  border: 2px solid #DAA46B;
+  box-shadow: 0px 0px 6.2px 0px #BE6600 inset;
+  color: #DAA46B;
+  background: transparent;
+  text-align: center;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.browsebutton:hover,
+.savebutton:hover,
+.resetbutton:hover,
+.backbutton:hover {
+  background-color: #555;
+}
+.mainContent {
+  transition: opacity 0.3s ease-in-out; /* Smooth transition */
+}
+
+.dimmed {
+  opacity: 0.3; /* Lower opacity for dimming effect */
+  pointer-events: none; /* Prevent interactions with background */
+}

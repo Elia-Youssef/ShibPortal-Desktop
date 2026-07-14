@@ -1,0 +1,11 @@
+{
+  "environment": "prod",
+  "dev": {
+    "backend": "http://44.202.75.206:5100",
+    "frontend": "https://portal.shibthemetaverse.io"
+  },
+  "prod": {
+    "backend": "https://api.shibthemetaverse.io",
+    "frontend": "https://portal.shibthemetaverse.io"
+  }
+}

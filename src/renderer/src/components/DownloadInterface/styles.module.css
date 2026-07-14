@@ -1,0 +1,28 @@
+.baseContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+}
+
+.button {
+  background: var(--ev-c-gray-1);
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  border-width: 0;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 100ms;
+}
+
+.button:hover {
+  background: var(--ev-c-gray-2);
+}

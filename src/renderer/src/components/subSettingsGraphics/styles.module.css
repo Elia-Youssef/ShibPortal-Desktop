@@ -1,0 +1,230 @@
+.settingscontainer {
+  display: flex;
+  background-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.settingscontent {
+  padding: 20px;
+  width: 750px;
+}
+
+.settingdisplay {
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #DAA46B;
+  align-items: center;
+  gap:30px;
+}
+
+.settingdisplay label {
+  display: block;
+  font-weight: bold;
+  width: 100%;
+  margin: 0 20px 0 20px;
+}
+.value {
+  font-weight: bold;
+  width: 100%;
+  margin: 0 20px 0 20px;
+  text-align: center;
+}
+.arrowbutton {
+  display: flex;
+  background: none;
+  color: #DAA46B;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border : none;
+}
+
+.arrowbutton:hover {
+  background-color: #444;
+}
+
+.qualityoptions {
+  display: flex;
+}
+
+.qualitybutton {
+  background: #FFF;
+  width: 117px;
+  height: 23px;
+  border: none;
+  color: #A81200;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qualitybutton.active {
+  background-color: #A81200;
+  color: #fff;
+}
+.qualitybuttonleft {
+  background: #FFF;
+  border: none;
+  color: #A81200;
+  width: 117px;
+  height: 23px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 54px 0 0 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qualitybuttonleft.active {
+  background-color: #A81200;
+  color: #fff;
+}
+.qualitybuttonright {
+  background: #FFF;
+  border: none;
+  color: #A81200;
+  width: 117px;
+  height: 23px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 0 54px 54px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qualitybuttonright.active {
+  background-color: #A81200;
+  color: #fff;
+}
+
+.qualitybutton:hover {
+  background-color: #555;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  background: #DAA46B;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 22px;
+  background: #DAA46B;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 22px;
+  background: #DAA46B;
+  cursor: pointer;
+}
+
+.buttonscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+
+}
+
+.savebutton,
+.resetbutton,
+.backbutton {
+  display : inline-block;
+  display : inline-block;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  display: flex;
+  width: 266px;
+  height: 48px;
+  border-radius :54px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.savebutton {
+  background: #A14338;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 6.2px 0px #A81200 inset;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.resetbutton {
+  border-radius: 54px;
+  border: 2px solid #A14338;
+  background: #FFF;
+  box-shadow: 0px 0px 6.2px 0px #BE6600 inset;
+  color: #A14338;
+  text-align: center;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.backbutton {
+  border-radius: 54px;
+  border: 2px solid #DAA46B;
+  box-shadow: 0px 0px 6.2px 0px #BE6600 inset;
+  color: #DAA46B;
+  background: transparent;
+  text-align: center;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.savebutton:hover,
+.resetbutton:hover,
+.backbutton:hover {
+  background-color: #555;
+}

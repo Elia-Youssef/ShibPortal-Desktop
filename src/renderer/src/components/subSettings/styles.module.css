@@ -1,0 +1,70 @@
+
+.subprofilecontainer {
+  display: flex;
+  background-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80%;
+  height: 100%;
+
+}
+.sidebar {
+  width: 260px;
+  background-color: transparent;
+  padding: 20px;
+  border-right: 2px solid #DAA46B;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 15px 10px;
+  cursor: pointer;
+  color: #888; /* Inactive color */
+  transition: background-color 0.3s, color 0.3s;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.sidebar li.active {
+  color: #fff; /* Active color */
+  background-color: transparent;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.sidebar li img {
+  /*margin: 5px 5px;*/
+  width: 30px;
+  height: 30px;
+  margin: -5px 3px;
+}
+.sidebar li:hover {
+  background-color: #444;
+  color: #fff; /* Brightens on hover */
+}
+
+.settingscontent {
+  padding: 20px;
+  width: 400px;
+  color: #fff;
+}
+.containerlabel {
+
+  text-align: center;
+  max-width: 650px;
+  text-wrap: wrap;
+  color: #DAA46B;
+  padding-left: 130px;
+  font-family: Sora;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+}

@@ -1,0 +1,64 @@
+.subcontainer {
+
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.subcontainerloader {
+display: flex;
+  flex-direction: row;
+  align-items: center ;
+  justify-content: center;
+  gap:15px;
+  padding: 30px;
+
+}
+.Image {
+  color: white;
+  padding: 12px;
+  height: 186px;
+  width: 186px;
+  gap: 23px;
+  border-radius: 50%;
+}
+
+.label {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color:  #FFF;
+  font-size: 20px;
+  font-family: Sora;
+  margin-bottom: 10px;
+  display: block;
+  padding: 10px;
+}
+.labelloader {
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  color:  #FFF;
+  font-size: 20px;
+  font-family: Sora;
+  display: block;
+
+
+}
+.preloader {
+  --size: 21px;
+  width: var(--size);
+  height: var(--size);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: spin 1s linear infinite;
+
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}

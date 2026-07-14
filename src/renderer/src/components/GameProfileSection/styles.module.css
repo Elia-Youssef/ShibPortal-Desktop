@@ -1,0 +1,155 @@
+.container {
+  width: 100vw;
+  height: 620px;
+}
+
+.banner {
+  width: 100%;
+  height: 430px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.profile {
+  width: 280px;
+  height: 280px;
+  margin-top: calc(620px - (430px + 280px));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #2D2D2D;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.69);
+  border-radius: 20px;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  padding: 120px 115px;
+  height: 190px;
+}
+
+.profileDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 35px;
+}
+
+.detailsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.title {
+  color: #FFF;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.description {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 650px;
+  white-space: nowrap;
+  /*overflow: clip;*/
+ text-wrap: wrap;
+  /*text-overflow: ellipsis;*/
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+}
+
+.detailsRow {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 10px;
+}
+
+.detailHighlight {
+  color: #DAA46B;
+}
+
+.buttonContainer {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row;
+  width: 342px;
+  height: 76px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 54px;
+  background: #A14338;
+  box-shadow: 0 0 6px 0 #A81200 inset;
+  cursor: pointer;
+}
+
+.playButton {
+  display: flex;
+  width: 120px;
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 54px;
+  background: #A14338;
+  box-shadow: 0 0 6px 0 #A81200 inset;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 20px 25px;
+  cursor: pointer;
+}
+
+.downloadContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.osIcon {
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gameSize {
+  margin-top: -7px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}

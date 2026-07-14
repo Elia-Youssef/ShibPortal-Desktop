@@ -1,0 +1,170 @@
+
+.accountcontainer {
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.profilecard {
+
+  border-radius: 10px;
+  width: 300px;
+
+}
+
+.profilepicture {
+  position: relative;
+  margin: 0 auto 20px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+
+.profilepicture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+}
+.spanlabel {
+
+  text-align:center;
+  width:100%;
+  background:white;
+  bottom:0;
+  padding:20px 0;
+  opacity:.7;
+
+}
+.editbutton {
+  width:100%;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  height: 35px;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #FFF;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.usernamecontainer {
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.usernamecontainer label {
+  color: #FFF;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.usernamecontainer input {
+  flex: 2;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: darkgray;
+  border-bottom: 2px solid #DAA46B;
+}
+
+.editicon {
+  background-color: transparent;
+  border: none;
+  margin-left: 5px;
+  padding: 2px;
+}
+.editicondisable {
+  background-color: transparent;
+  border: none;
+  margin-left: 5px;
+  padding: 2px;
+  opacity: 0.5;
+}
+.usernamecontainer .editicon img {
+  width: 30px;
+  height: 30px;
+}
+.usernamecontainer .editicondisable img {
+  width: 30px;
+  height: 30px;
+}
+.savebutton {
+
+  border-radius: 54px;
+  background: #A14338;
+  box-shadow: 0px 0px 6.2px 0px #A81200 inset;
+  display: flex;
+  width: 266px;
+  height: 48px;
+  padding: 0px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  flex-shrink: 0;
+  color:  #FFF;
+  text-align: center;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.logoutbutton {
+  border-radius: 54px;
+  border: 2px solid #A14338;display: flex;
+  width: 266px;
+  height: 48px;
+  padding: 0px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  flex-shrink: 0;
+  background: #FFF;
+  box-shadow: 0px 0px 6.2px 0px #BE6600 inset;
+  color: #A14338;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.backbutton {
+  display: flex;
+  width: 266px;
+  height: 48px;
+  padding: 0px  28px;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  flex-shrink: 0;
+  border-radius: 54px;
+  border: 2px solid #DAA46B;
+  box-shadow: 0px 0px 6.2px 0px #BE6600 inset;
+  color: #DAA46B;
+  text-align: center;
+  background-color: transparent;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+  margin-top: 20px;
+}
+

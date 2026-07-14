@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  min-width: 700px;
+  max-width: 85%;
+}
+
+.sectionTitle {
+  align-self: start;
+  color: #DEDECE;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 70px 0 40px 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,68 @@
+.subcontainer {
+
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.code {
+
+  color: #DAA46B;
+  text-align: center;
+  font-family: Sora;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  flex-shrink: 0;
+  width: 504px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+}
+.label {
+  color: #d4d4d4;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.imageButton {
+  background-color: #ffffff;
+  color: #A14338;
+  border-radius: 30px;
+  font-style: normal;
+  width: 70%;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.imageButton:hover {
+  background-color: #f0f0f0;
+  color: #b54135;
+}
+.backbutton {
+  background-color: #2D2D2D;
+  border: 2px solid #BE6600;
+  color: #BE6600;
+  margin-top: 25px;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Sora";
+  width: 124px;
+  box-shadow: 0px 0px 6.2px 0px #BE6600 inset;
+  flex-shrink: 0;
+}
+
+.backbutton:hover {
+  background-color: #2D2D2D;
+  color: #DAA46B;
+}
