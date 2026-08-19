@@ -90,6 +90,16 @@ npm run build:linux
 
 Platform packaging should be performed on a compatible host with the signing and notarization material required by the target environment.
 
+## Repository checks
+
+Run the dependency-free repository and source-syntax checks with:
+
+```bash
+npm run check:repository
+```
+
+Pull requests also run secret scanning, dependency review, and CodeQL in GitHub Actions. Installing private `@shibaone` packages still requires an authorized `GITHUB_TOKEN`.
+
 ## Ecosystem context
 
 The launcher is the desktop entry point for [Shib: The Metaverse](https://github.com/Elia-Youssef/ShibTheMetaverse). It relies on the private `ShibPortal-Frontend` service for browser-based identity handoff and the private `Shib-Backend` service for catalog and user data. Explore the production visuals in the [Rebel Art Studios case study](https://rebelartstudios.org/project/shib-the-metaverse).

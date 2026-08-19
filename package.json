@@ -6,6 +6,7 @@
   "author": "",
   "homepage": "./",
   "scripts": {
+    "check:repository": "python scripts/check_repository.py && npx --yes --registry=https://registry.npmjs.org @biomejs/biome@2.5.9 ci .",
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
     "typecheck:node": "tsc --noEmit -p tsconfig.node.json --composite false",
